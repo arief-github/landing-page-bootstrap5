@@ -1,0 +1,27 @@
+/* media screen untuk input */
+@media (min-width: 768px) {
+	.news-input {
+		width: 50%;
+	}
+}
+
+/* adding element with empty content  */
+body::before {
+	display: block;
+	content: "";
+	height: 60px;
+}
+
+/* for proportional image */
+.rounded-circle {
+	border: none;
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+}
+
+/* for maps */
+#map iframe {
+	width: 100%;
+	border-radius: 10px;
+}
